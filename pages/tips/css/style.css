@@ -43,7 +43,7 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 300px;
 }
 .header_cont{
     padding-top: 20px;
@@ -62,58 +62,47 @@ h3{
 .hero_text{
     margin: auto;
     width: 30%;
-    padding-top: 120px;
+    padding-top: 20px;
     text-align: center;
 }
 .hero_text h1{
     margin-bottom: 0px;
 }
 
-/* ***MONTH*** */
+/* ***TEXTBLOCK*** */
 
-.month{
-    padding: 50px 50px 0px 50px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.month img{
-    padding-right: 25px;
-    max-width: 45%;
-}
-.month_text{
-    padding: 50px 40px 0px 40px;
-    max-width: 45%;
+.textblock{
+    padding: 50px 200px 0px 200px;
 }
 
-/* ***HOBBIES*** */
+/* ***TIP*** */
 
-.hobby_cards{
-    padding: 50px 50px 0px 50px;
+.tip_steps{
+    padding: 0px 50px 0px 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
-.card{
-    margin-bottom: 50px;
-    width: 330px;
-    background-color: #ffffff ;
+.tip{
+    margin-top: 50px;
+    width: 500px;
+    background-color:#ffffff;
 }
-.card img{
-    width: 330px;
+.tip img{
+    max-width: 100%;
 }
-.card_text{
-    padding: 0px 30px 0px 30px;
+.tip_text{
+    padding: 0px 50px 30px 50px;
 }
-.date{
+.tip_view{
     margin-top: 80px;
-    margin-bottom: 30px;
+    text-align: right;
 }
 
 /* ***FOOTER*** */
 
 .footer{
     margin-left: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0px 50px 0px;
 }
