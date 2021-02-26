@@ -69,6 +69,22 @@ h3{
     margin-bottom: 0px;
 }
 
+/* ***SUBMENU*** */
+
+.submenu{
+    height: 60px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub{
+    padding: 6px 0px 10px 0px;
+    flex: 50%;
+    text-align: center;
+    background-color:#aaaaaa;
+}
+
 /* ***TEXTBLOCK*** */
 
 .textblock{
